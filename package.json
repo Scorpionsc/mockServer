@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "4.17.1",
+    "cors": "2.8.4",
+    "body-parser": "1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.3"
+  },
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  }
+}
